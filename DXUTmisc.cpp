@@ -1378,7 +1378,7 @@ HRESULT WINAPI DXUTTrace( const CHAR* strFile, DWORD dwLine, HRESULT hr,
 
     //return DXTrace( strFile, dwLine, hr, strMsg, bPopMsgBox );
 
-	return 0;
+	return hr;
 }
 
 
